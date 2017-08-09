@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Politics BI</title>
+		<meta name="description" content="Politics BI">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+     <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+
+
+
+		<!-- D3js Library Graph -->
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		
+		<style>
+		#top {
+			display: none;
+		}
+		</style>
+		
+		<script type="text/javascript"  >
+		$( document ).ready(function(){
+			$( "div#top" ).fadeIn( "slow" );
+		});
+		</script>
+		<script type="text/babel" src="index.js" ></script>
+	</head>
+
+	<body>
+		<div id="top">
+			<h1 style=" color: blue; ">Politics BI (popularity level)</h1>
+		</div>
+		<div id="app"></div>
+	</body>
+
+</html>
